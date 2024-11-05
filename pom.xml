@@ -16,8 +16,8 @@
 	<artifactId>mavenapplications</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>mavenapplications</name>
-	<description>mavenapplication</description>
+	<name>TestApplication</name>
+	<description>TestApplication</description>
 	<url/>
 	<licenses>
 		<license/>

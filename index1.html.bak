@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Chain Management - Hurray!</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin: 0.5rem 0;
+        }
+
+        /* Logo */
+        .logo {
+            max-width: 200px;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        /* Main Section */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            position: relative;
+        }
+
+        /* Hurray! Style */
+        .hurray {
+            font-size: 3rem;
+            color: #ff6347;
+            font-weight: bold;
+            animation: hurray-bounce 1s infinite;
+            position: absolute;
+            top: 10%;
+        }
+
+        @keyframes hurray-bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        /* Login Button */
+        .login-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 1.5rem;
+            transition: background-color 0.3s;
+        }
+
+        .login-btn:hover {
+            background-color: #218838;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            color: #fff;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Logo and Title -->
+    <header>
+        <h1>Supply Chain Management</h1>
+        <img src="logo.png" alt="Supply Chain Management Logo" class="logo">
+    </header>
+
+    <!-- Main Section with Hurray! Message and Login Button -->
+    <main>
+        <div class="hurray">Hurray!</div>
+        <p>Welcome to the Supply Chain Management System</p>
+        <button class="login-btn">Login</button>
+    </main>
+
+    <!-- Footer with Social Media Links -->
+    <footer>
+        <p>&copy; 2023 Supply Chain Management</p>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f">Facebook</i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter">Twitter</i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in">LinkedIn</i></a>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for Social Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

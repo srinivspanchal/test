@@ -13,7 +13,7 @@
 	<!--Modified when  Webhook configured test2  -->
 	<!--Modified when  Webhook configured test3  -->
 	<groupId>com.maven</groupId>
-	<artifactId>mavenapplications</artifactId>
+	<artifactId>TestApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>TestApplication</name>
